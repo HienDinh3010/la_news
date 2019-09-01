@@ -1,7 +1,7 @@
 <ul class="nav__menu">
 
     <li class="active">
-      <a href="<?=URL::to('/');?>">Trang chủ</a>
+      <a href="<?=URL::to('/');?>">{{ trans('mes.tc') }}</a>
     </li>
 
     <?php 
@@ -26,7 +26,7 @@
     <?php }?>
 
     <li>
-      <a href="#">Liên hệ</a>
+      <a href="#">{{ trans('mes.lh')}}</a>
     </li>
 
 

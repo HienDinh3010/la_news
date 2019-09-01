@@ -1,6 +1,6 @@
 
 <aside class="widget widget-popular-posts">
-        <h4 class="widget-title">Tin xem nhiều</h4>
+        <h4 class="widget-title">{{ trans('mes.tinxn') }}</h4>
         <ul class="post-list-small">
         <?php 
         $kq = DB::select("SELECT idTin,TieuDe,Ngay,TomTat, urlHinh, 

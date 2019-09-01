@@ -13,7 +13,7 @@ class capnhatTenKhongDau extends Seeder
         $kq = DB::table("loaitin")->pluck('Ten','idLT');
         foreach($kq as $idLT=>$Ten) {        
             $tenKD= Str::slug($Ten);
-            DB::table('loaitin')->where('idLT', $idLT)->update(['Ten_KhongDau' => $tenKD]);
+            DB::table('loaitin')->where('idLT', $idLT)->update(['Ten_KhongDau' => $tenKD]);//Em thay $ten thành $tenKD nha 
         }
       }
       

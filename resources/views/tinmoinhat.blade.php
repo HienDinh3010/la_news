@@ -7,7 +7,7 @@ $kq = DB::select("SELECT idLT, Ten as TenLT, Ten_KhongDau FROM loaitin WHERE idL
 
 <section class="section tab-post mb-16">
         <div class="title-wrap title-wrap--line">
-          <h3 class="section-title">Tin Mới</h3>
+          <h3 class="section-title">{{ trans('mes.tinmn') }}</h3>
 
           <div class="tabs tab-post__tabs"> 
             <ul class="tabs__list">

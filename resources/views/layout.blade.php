@@ -147,6 +147,9 @@
               <li><a href="#">Advertise</a></li>
               <li><a href="#">Contact</a></li>
             </ul>
+            <a href="{!! route('change-lang', ['en']) !!}">English</a>
+            <a href="{!! route('change-lang', ['vi']) !!}">Vietnam</a>
+
           </div>
           
           <!-- Socials -->
@@ -205,7 +208,7 @@
                 </a>
                 <div class="nav__search-box" id="nav__search-box">
                   <form class="nav__search-form">
-                    <input type="text" placeholder="Search an article" class="nav__search-input">
+                    <input type="text" placeholder="Search an article" class="nav__search-input" name="Keyword">
                     <button type="submit" class="search-button btn btn-lg btn-color btn-button">
                       <i class="ui-search nav__search-icon"></i>
                     </button>

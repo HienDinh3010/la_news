@@ -4961,3 +4961,5 @@ h2.entry__title {height:45px}
 div.entry__excerpt p {font-size:17px; text-align:justify; }
 div.entry__excerpt {height:110px; overflow:hidden; }
 
+.contact-name, .contact-email, .contact-subject {max-width:100%;  }
+
